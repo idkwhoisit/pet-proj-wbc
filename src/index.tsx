@@ -10,7 +10,7 @@ import { store } from "./redux/store";
 const root = ReactDOM.createRoot(document.getElementById("root") as HTMLElement);
 root.render(
     <Provider store={store}>
-        <BrowserRouter>
+        <BrowserRouter basename="/pet-proj-wbc">
             <App />
         </BrowserRouter>
     </Provider>

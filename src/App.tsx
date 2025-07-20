@@ -1,7 +1,5 @@
-import React, { useEffect, useState } from "react";
-
 import "./App.css";
-import { Preloader } from "./common/Preloader";
+
 import { Header } from "./components/header/Header";
 import { AboutSection } from "./components/AboutSection/AboutSection";
 import { PriceSection } from "./components/Price/PriceSection";
@@ -13,18 +11,6 @@ import { MainSection } from "./components/MainSection/MainSection";
 import { Footer } from "./components/Footer/Footer";
 
 function App() {
-    const [isLoading, setLoading] = useState(true);
-
-    useEffect(() => {
-        document.body.style.overflow = "hidden";
-
-        setTimeout(() => {
-            document.body.style.overflow = "visible";
-
-            setLoading(false);
-        }, 2000);
-    }, []);
-
     return (
         <Routes>
             <Route path="/admin" element={<AdminPage />} />
@@ -35,7 +21,7 @@ function App() {
                         <div>
                             <Header />
                             <MainSection />
-                            <Preloader status={isLoading} />
+
                             <AboutSection />
                             <PriceSection />
                             <EmailForm />

@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&display=swap");
+
+$mon: "Montserrat", sans-serif;
+$opSan: "Open Sans", sans-serif;
+
+.slider {
+    width: 100%;
+    .sliderItem {
+        padding: 10px;
+    }
+}
+.planBody {
+    width: 100%;
+}
+
+.plan__types {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    max-width: 80%;
+    max-height: 100vh;
+    height: 100%;
+
+    padding: 10px;
+    margin-bottom: 20px;
+
+    .type__column {
+        flex: 1 1 auto;
+        display: flex;
+        flex-direction: column;
+
+        width: 100%;
+
+        background-color: #fff;
+        padding: 20px;
+        margin: 10px;
+        text-align: center;
+        .plan__name {
+            text-align-last: left;
+            font-family: $opSan;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 22px;
+            color: #242121;
+            margin-bottom: 8px;
+            min-height: 10px;
+        }
+
+        .plan__price {
+            transform: translateX(17px);
+            display: inline-block;
+            font-family: $opSan;
+            font-weight: 300;
+            font-size: 35px;
+            line-height: 60px;
+            color: #242121;
+            position: relative;
+            &::before {
+                content: "от";
+                position: absolute;
+                width: 23px;
+                height: 54px;
+                top: 0%;
+                left: -40px;
+                font-size: 27px;
+            }
+        }
+        .plan__compound {
+            font-family: $opSan;
+            font-weight: 300;
+            font-size: 16px;
+            line-height: 22px;
+            color: #242121;
+
+            li {
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

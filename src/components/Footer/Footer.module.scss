@@ -1,0 +1,16 @@
+.bgWrapper {
+    background-color: #ffffff;
+
+    width: 100vmax;
+
+    .wrapper {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img {
+            width: 300px;
+        }
+    }
+}

@@ -1,0 +1,26 @@
+.bgWrapper {
+    background-color: #ffffff;
+
+    width: 100vmax;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 580px;
+
+    height: 100vh;
+    width: 100%;
+    padding: 10px;
+    color: #111;
+    font-size: 34px;
+    letter-spacing: 3px;
+    .formBtn {
+        cursor: pointer;
+        transition: all 0.5s;
+
+        &:hover {
+        }
+    }
+}

@@ -1,0 +1,17 @@
+.mapSection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid transparent;
+    position: relative;
+    overflow: hidden;
+    border-radius: 19px;
+    margin: 10px;
+
+    .mapElement {
+        min-height: 400px;
+        min-width: 400px;
+        height: 70vh;
+        width: 80vh;
+    }
+}

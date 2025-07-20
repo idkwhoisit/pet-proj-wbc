@@ -1,0 +1,25 @@
+.wrapper {
+    max-width: 400px;
+    color: white;
+
+    margin: 0 auto;
+}
+.title {
+    font-weight: bold;
+    font-size: 84px;
+    line-height: 98px;
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+@media (max-width: 600px) {
+    .wrapper {
+        max-width: 310px;
+        width: 100%;
+        padding: 5px;
+    }
+    .title {
+        font-size: 54px;
+        width: 90%;
+        margin: 0 auto;
+    }
+}

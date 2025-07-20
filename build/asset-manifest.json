@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pet-proj-wbc/static/css/main.eac6b887.css",
+    "main.js": "/pet-proj-wbc/static/js/main.4e7b380e.js",
+    "static/media/Screenshot 2023-05-08 at 18.12.33.png": "/pet-proj-wbc/static/media/Screenshot 2023-05-08 at 18.12.33.959cbc4cfe93b0c71635.png",
+    "static/media/maxresdefault.jpeg": "/pet-proj-wbc/static/media/maxresdefault.be37e993a2ff9d9611f7.jpeg",
+    "static/media/logo.png": "/pet-proj-wbc/static/media/logo.2f52e5e17af856776aaf.png",
+    "static/media/IMG_4841.jpeg": "/pet-proj-wbc/static/media/IMG_4841.1fd99a17e2a567e791b3.jpeg",
+    "static/media/brake.jpg": "/pet-proj-wbc/static/media/brake.ff215f34ddf743bdb1d8.jpg",
+    "static/media/whatsappIc.svg": "/pet-proj-wbc/static/media/whatsappIc.83b4e44609daa9c6fc3ae84fb9da7b94.svg",
+    "static/media/telegramIc.svg": "/pet-proj-wbc/static/media/telegramIc.970cf5967a23171f665a4c93a61c7ad8.svg",
+    "index.html": "/pet-proj-wbc/index.html",
+    "main.eac6b887.css.map": "/pet-proj-wbc/static/css/main.eac6b887.css.map",
+    "main.4e7b380e.js.map": "/pet-proj-wbc/static/js/main.4e7b380e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eac6b887.css",
+    "static/js/main.4e7b380e.js"
+  ]
+}
